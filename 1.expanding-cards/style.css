@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;   /*只影响下一级，就是container，不包括孙级*/
+  }
+
+.container {
+    display: flex;
+    
+}
+  
